@@ -2,6 +2,9 @@
 <html lang="en">
 
 <style>
+.h2 {
+   
+}
   .row{
     float: left;
     padding-top: 30px;
@@ -15,7 +18,13 @@
    .card-header:first-child {
       padding: 1.75rem 1.25rem;
    } 
-
+   
+  .card-body {
+    vertical-align: top;
+    display: inline-block;
+    text-align: left;
+    width: 500px;
+}
 
 </style>
 
@@ -52,13 +61,27 @@
   <div class="container">
 
     <div class="row"> 
-      
-        <div class="card border-success mb-3" style="max-width: 20rem;">
-          <div class="card-header">Acerca De Mi</div>
+
+        <div class="card border-success mb-3" style="max-width: 50rem;">
+          <div class="card-header">
+            <h2 style="vertical-align: middle;  margin-bottom: 0px;">About Me</h2>
+          </div>
             <div class="card-body">
-              <!-- <h1 class="card-title">Success card title</h1> -->
-              <img class="img img-thumbnail" src="http://placehold.it/200x200">
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                
+                <p style="float: left; padding: 20px; margin: 0px; border: 0px;"><img src="http://placehold.it/200x200" height="200px" width="200px" padding="20px"></p>
+
+                <p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities.</p>
+
+                <p>Society excited by cottage private an it esteems. Fully begin on by wound an. Girl rich in do up or both. At declared in as rejoiced of together. He impression collecting delightful unpleasant by prosperous as on. End too talent she object mrs wanted remove giving.</p>
+
+            <div style="float: right; padding-right: 20px; padding-top: 0px; padding-bottom: 0px;" class="row">
+
+              <button style="margin: 1px;" type="button" class="btn btn-outline-primary">The Wire</button>
+              <button style="margin: 1px;" type="button" class="btn btn-outline-success">Insta</button>
+              <button style="margin: 1px;" type="button" class="btn btn-outline-info">Winning</button>
+              <button style="margin: 1px;" type="button" class="btn btn-outline-danger">Interface</button>
+
+            </div>
           </div>
         </div>
 
