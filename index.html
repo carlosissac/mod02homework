@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<style>
+  .row{
+    float: left;
+    padding-top: 30px;
+  }
+
+  .body {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+   .card-header:first-child {
+      padding: 1.75rem 1.25rem;
+   } 
+
+
+</style>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Mi Sitio</title>
+    
+    <!-- BOOTSTRAP LINKAGE -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css">
+
 </head>
 <body>
 
+  <!-- NAV BAR STARTS -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="#">Issac Carlos</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,22 +40,36 @@
   
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>  
-        </li>
+        <li class="nav-item active"><a class="nav-link" href="#">About<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
-
     </div>
   </nav>
+  <!-- NAV BAR ENDS -->
+
+  <!-- WEB PAGE BODY START -->
+  <div class="container">
+
+    <div class="row"> 
+      
+        <div class="card border-success mb-3" style="max-width: 20rem;">
+          <div class="card-header">Acerca De Mi</div>
+            <div class="card-body">
+              <!-- <h1 class="card-title">Success card title</h1> -->
+              <img class="img img-thumbnail" src="http://placehold.it/200x200">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+
+  </div>
+  
+
+  </div>
+<!-- WEB PAGE BODY ENDS -->
+
+
+
 
 
 </body>
