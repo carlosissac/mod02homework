@@ -26,7 +26,15 @@
 .card-header:first-child {
       padding: 1.75rem 1.25rem;
    } 
-   
+
+
+#jpg-p {
+  float: left;
+  padding: 20px;
+  margin: 0px;
+  border: 0px;
+}
+
 .card-body {
     vertical-align: top;
     display: inline-block;
