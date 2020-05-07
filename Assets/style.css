@@ -13,6 +13,11 @@
           box-sizing: content-box;
 }
 
+/*
+#nav-ctrl .active {
+  font-weight: bold;
+}*/ 
+
 .row {
     float: left;
     padding-top: 30px;
