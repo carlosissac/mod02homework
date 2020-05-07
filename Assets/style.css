@@ -27,18 +27,12 @@
       padding: 1.75rem 1.25rem;
    } 
 
-#jpg-p {
-  float: left;
-  padding: 20px;
-  margin: 0px;
-  border: 0px;
-}
-
 .card-body {
     vertical-align: top;
     display: inline-block;
     text-align: left;
     width: 450px;
+    
  }
 
 #card-row {
@@ -46,7 +40,48 @@
     padding-right: 20px; 
     padding-top: 0px; 
     padding-bottom: 0px;
+    
  }
+
+ #jpg-p {
+  display: block;
+  float: left;
+  padding: 20px;
+  margin: 0px;
+  border: 0px;
+
+}
+
+/* OVERLAY BANNER STYLE
+/// WILL HAVE TO PICK THIS UP LATER --- ISSAC
+.overlay {
+  position: absolute;
+  left: 39px;
+  top: 245px;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1; 
+  width: 100%;
+  height: 50px;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  margin: 0px;
+  border: 0px;
+  vertical-align: text-bottom;
+}
+*/
+
+/* OVERLAY BANNER STYLE
+/// WILL HAVE TO PICK THIS UP LATER --- ISSAC 
+.img-container:hover .overlay {
+  opacity: 1;
+  width: 150px;
+}
+*/
 
 .sticky-footer {
   position: fixed;
