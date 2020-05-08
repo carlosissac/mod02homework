@@ -9,68 +9,81 @@
     <!-- BOOTSTRAP LINKAGE -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/superhero/bootstrap.min.css">
     <!-- CSS REF -->
-    <link rel="stylesheet" href="./Assets/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
 
   <!-- NAV BAR STARTS -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand">Issac Carlos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="collapse navbar-collapse" id="navbarColor03">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a class="nav-link" href="#">About Me<span class="sr-only">(current)</span></a>
         <li class="nav-item"><a class="nav-link" href="#">Portfolio</span></a>
         <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
       </ul>
-    </div>
+    </div>  
   </nav>
   <!-- NAV BAR ENDS -->
 
   <!-- WEB PAGE BODY START -->
   <div class="container">
-    <div class="row"> 
-        <div class="card border-success mb-3" style="max-width: 50rem;">
-          <div class="card-header">
-            <h2 style="vertical-align: middle;  margin-bottom: 0px;">About Me</h2>
-          </div>
-            <!-- CARD BODY STARTS -->
-            <div class="card-body">
-                <!-- ABOUT IMAGE STARTS -->
-               <div class="img-container">
-                  <a target="_blank" href="https://www.youtube.com/watch?v=RmUzdNLDLmI&list=OLAK5uy_k1SkzsVL3L_X97PnTRlRJg4GQBRJAWLos&index=6">
-                  <p id="jpg-p"><img class="about-img" src="./Assets/potm.jpg" height="200px" width="200px" padding="20px"></p>
-                    <!-- <div class="overlay">Click Me</div> TRIED SETTING UP AN OVERLAY TITLE HAVE TO PICK UP THIS LATER-->
-                  </a>
-               </div>
-                <!-- ABOUT IMAGE ENDS -->
+    <div id="card-row" class="row">
+      <div class="col-sm-6">
+            <!-- CARD BORDER START -->   
+            <div class="card border-success mb-3">
+              
+              <!-- CARD HEADER START -->  
+              <div class="card-header">
+                <h2 style="vertical-align: middle;  margin-bottom: 0px;">About Me</h2>
+              </div>
+              <!-- CARD HEADER ENDS -->  
 
-                <!-- RANDOM TEXT START -->
-                <p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities.</p>
+              <!-- CARD BODY STARTS -->
+              <div class="card-body">
 
-                <p>Society excited by cottage private an it esteems. Fully begin on by wound an. Girl rich in do up or both. At declared in as rejoiced of together. He impression collecting delightful unpleasant by prosperous as on. End too talent she object mrs wanted remove giving.</p>
-                <!-- RANDOM TEXT END -->
+                  <!-- ABOUT IMAGE STARTS -->
+                  <div class="img-container">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=RmUzdNLDLmI&list=OLAK5uy_k1SkzsVL3L_X97PnTRlRJg4GQBRJAWLos&index=6">
+                    <p id="picture"><img class="about-img" src="./Assets/potm.jpg" height="200px" width="200px" padding="20px"></p>
+                      <!-- <div class="overlay">Click Me</div> TRIED SETTING UP AN OVERLAY TITLE HAVE TO PICK UP THIS LATER-->
+                    </a>
+                  </div>
+                  <!-- ABOUT IMAGE ENDS -->
 
-                <!-- BUTTON CONTROL ROW START -->
-                <div id="card-row" class="row">
-                  <a target="_blank" href="https://www.youtube.com/watch?v=35NtjSFsMnI"><button style="margin: 1px;" type="button" class="btn btn-outline-warning">IDLES</button></a>
-                  <a target="_blank" href="https://www.thewire.co.uk"><button style="margin: 1px;" type="button" class="btn btn-outline-primary">thewire.co.uk</button></a>
-                  <a target="_blank" href="https://www.instagram.com/zzzakk_cccrlss/"><button style="margin: 1px;" type="button" class="btn btn-outline-success">Insta</button></a>
-                  <a target="_blank" href="http://www.winning-usa.com/products.html"><button style="margin: 1px;" type="button" class="btn btn-outline-info">Winning</button></a>
-                  <a target="_blank" href="https://portlanddsa.org/"><button style="margin: 1px;" type="button" class="btn btn-outline-danger">PDSA</button></a>
+                  <!-- RANDOM TEXT START -->
+                  <p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities.</p>
+
+                  <p>Society excited by cottage private an it esteems. Fully begin on by wound an. Girl rich in do up or both. At declared in as rejoiced of together. He impression collecting delightful unpleasant by prosperous as on. End too talent she object mrs wanted remove giving.</p>
+                  <!-- RANDOM TEXT END -->
+
+                  <!-- BUTTON CONTROL ROW START -->
+                  <div id="card-button-row" class="row">
+                    <a target="_blank" href="https://www.youtube.com/watch?v=35NtjSFsMnI"><button type="button" id="card-button-ctrl" class="btn btn-outline-warning">IDLES</button></a>
+                    <a target="_blank" href="https://www.thewire.co.uk"><button type="button" id="card-button-ctrl" class="btn btn-outline-primary">thewire.co.uk</button></a>
+                    <a target="_blank" href="https://www.instagram.com/zzzakk_cccrlss/"><button type="button" id="card-button-ctrl" class="btn btn-outline-success">Insta</button></a>
+                    <a target="_blank" href="http://www.winning-usa.com/products.html"><button type="button" id="card-button-ctrl" class="btn btn-outline-info">Winning</button></a>
+                    <a target="_blank" href="https://portlanddsa.org/"><button type="button" id="card-button-ctrl" class="btn btn-outline-danger">PDSA</button></a>
+                  </div>
+                  <!-- BUTTON CONTROL ROW END -->
+                  
                 </div>
-                <!-- BUTTON CONTROL ROW END -->
-            </div>
-            <!-- CARD BODY END -->
+              <!-- CARD BODY END -->
+
         </div>
+        <!-- CARD BORDER END -->
+    </div>
   </div>
-  
 
   </div>
 <!-- WEB PAGE BODY ENDS -->
 
  <!-- STICKY FOOTER START -->
 <div class="sticky-footer">
-  <div class="container text-center">
+  <div class="container text-right">
     <small>Copyright &copy; Gatito</small>
   </div>
 </div>

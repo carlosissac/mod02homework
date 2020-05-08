@@ -1,102 +1,55 @@
 
-
-* {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
+.nav {
+  position: fixed;
 }
-
-*:before,
-*:after {
-  -webkit-box-sizing: content-box;
-     -moz-box-sizing: content-box;
-          box-sizing: content-box;
-}
-
-/*
-#nav-ctrl .active {
-  font-weight: bold;
-}*/ 
-
-.row {
-    float: left;
-    padding-top: 30px;
-  }
  
 .body {
       margin-left: 0;
       margin-right: 0;
     }
-    
-.card-header:first-child {
-      padding: 1.75rem 1.25rem;
-   } 
+
+.card-header {
+    padding: 1.5rem;
+}
+
+ #card-row {
+    float: left;
+    padding-top: 2rem;
+ }
 
 .card-body {
     vertical-align: top;
     display: inline-block;
     text-align: left;
-    width: 450px;
-    
+    padding: 1rem;
  }
 
-#card-row {
-    float: right; 
-    padding-right: 20px; 
-    padding-top: 0px; 
-    padding-bottom: 0px;
-    
- }
-
- #jpg-p {
+#picture {
   display: block;
   float: left;
-  padding: 20px;
+  padding-right: 1.5rem;
   margin: 0px;
   border: 0px;
-
 }
 
-/* OVERLAY BANNER STYLE
-/// WILL HAVE TO PICK THIS UP LATER --- ISSAC
-.overlay {
-  position: absolute;
-  left: 39px;
-  top: 245px;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1; 
-  width: 100%;
-  height: 50px;
-  transition: .5s ease;
-  opacity:0;
-  color: white;
-  font-size: 20px;
-  text-align: center;
-  padding: 20px;
-  margin: 0px;
-  border: 0px;
-  vertical-align: text-bottom;
+#card-button-row {
+  float: right;
+  float: bottom;
+  padding: 0.5rem;
+  padding-right: 1.5rem;
 }
-*/
 
-/* OVERLAY BANNER STYLE
-/// WILL HAVE TO PICK THIS UP LATER --- ISSAC 
-.img-container:hover .overlay {
-  opacity: 1;
-  width: 150px;
+#card-button-ctrl {
+  margin: 0.1rem;
 }
-*/
 
 .sticky-footer {
   position: fixed;
-  height: 24px;
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: center;
   background-color: #343a40!important;
   padding-top: 1.5rem!important;
   padding-bottom: 1.5rem!important;
-  padding: 24px;
 }
+
