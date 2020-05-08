@@ -7,6 +7,7 @@
       margin-left: 0;
       margin-right: 0;
     }
+7
 
 .card-header {
     padding: 1.5rem;
@@ -27,7 +28,8 @@
 #picture {
   display: block;
   float: left;
-  padding-right: 1.5rem;
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
   margin: 0px;
   border: 0px;
 }
@@ -53,9 +55,33 @@
 
 #sticky-footer-container {
     margin: 0px;
-    /*padding: 0px;*/
-    /*padding-right: 0px;*/
-    /*padding-left: 0px;*/
-    /*margin-right: 0px;*/
-    /*margin-left: 0px;*/
+}
+
+#small-gatito {
+  color: #ADAFB5;
+}
+
+@media (max-width:2000px) {
+  body {
+    color: #ADAFB5;
+  }
+
+}
+
+@media (max-width:980px) {
+  body {
+    color: #77B300;
+  }
+}
+
+@media (max-width:768px) {
+  body {
+    color: #FF8800;
+  }
+}
+
+@media (max-width:640px) {
+  body {
+    color: #9933CC;
+  }
 }
