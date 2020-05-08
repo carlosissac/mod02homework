@@ -32,11 +32,9 @@
   border: 0px;
 }
 
-#card-button-row {
+#card-btn-row {
   float: right;
-  float: bottom;
   padding: 0.5rem;
-  padding-right: 1.5rem;
 }
 
 #card-button-ctrl {
@@ -53,3 +51,11 @@
   padding-bottom: 1.5rem!important;
 }
 
+#sticky-footer-container {
+    margin: 0px;
+    /*padding: 0px;*/
+    /*padding-right: 0px;*/
+    /*padding-left: 0px;*/
+    /*margin-right: 0px;*/
+    /*margin-left: 0px;*/
+}
