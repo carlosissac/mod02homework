@@ -9,6 +9,7 @@
       overflow: auto;
     }
 
+.contact-card-header,
 .port-card-header,
 .about-card-header {
     padding: 1.5rem;
@@ -18,11 +19,13 @@
   padding: 2rem;
 }
 
- #about-card-row {
+#contact-card-row,
+#about-card-row {
     float: left;
     padding-top: 2rem;
  }
 
+.contact-card-body,
 .about-card-body {
     vertical-align: top;
     display: inline-block;
@@ -35,8 +38,8 @@
     padding: 1rem;
 }
 
- #port-card-body-area-left,
- #port-card-body-area-right {
+#port-card-body-area-left,
+#port-card-body-area-right {
     max-width: none;
     height: 200px;
     width: 200px;
@@ -77,6 +80,7 @@
   border: 0px;
 }
 
+#contact-card-btn-row,
 #about-card-btn-row {
   float: right;
   padding: 0.5rem;

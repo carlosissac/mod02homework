@@ -29,9 +29,9 @@
 
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item active"><a class="nav-link" href="index.html">About<span class="sr-only">(current)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
         <li class="nav-item"><a class="nav-link" href="portfolio.html">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+        <li class="nav-item active"><a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a></li>
       </ul>
     </div>
   </nav>
@@ -39,44 +39,64 @@
 
   <!-- WEB PAGE BODY START -->
   <div class="container">
-    <div id="card-row" class="row">
-      <div id="card-area" class="col-sm-6">
+    <div id="contact-card-row" class="row">
+      <div id="contact-card-area" class="col-sm-6">
             <!-- CARD BORDER START -->   
-            <div id="card-border" class="card border-success mb-3">
+            <div id="contact-card-border" class="card border-success mb-3">
               
               <!-- CARD HEADER START -->  
-              <div class="card-header">
+              <div class="contact-card-header">
                 <h2 style="vertical-align: middle;  margin-bottom: 0px;">Contact</h2>
               </div>
               <!-- CARD HEADER ENDS -->  
 
               <!-- CARD BODY STARTS -->
-              <div class="card-body">
+              <div class="contact-card-body">
 
-                  <!-- ABOUT IMAGE STARTS -->
-                  <div class="img-container">
-                    <a target="_blank" href="https://www.youtube.com/watch?v=RmUzdNLDLmI&list=OLAK5uy_k1SkzsVL3L_X97PnTRlRJg4GQBRJAWLos&index=6">
-                    <p id="picture"><img class="about-img" src="./style/potm.jpg" height="200px" width="200px" padding="20px"></p>
-                    </a>
+                <div id="contact-card-btn-row" class="row">                  
+                  <div id="contact-card-area" class="col-sm-6">
+                    <label for="fname">First Name</label>
                   </div>
-                  <!-- ABOUT IMAGE ENDS -->
-
-                  <!-- RANDOM TEXT START -->
-                  <p>Whole wound wrote at whose to style in. Figure ye innate former do so we. Shutters but sir yourself provided you required his. So neither related he am do believe. Nothing but you hundred had use regular. Fat sportsmen arranging preferred can. Busy paid like is oh. Dinner our ask talent her age hardly. Neglected collected an attention listening do abilities.</p>
-
-                  <p>Society excited by cottage private an it esteems. Fully begin on by wound an. Girl rich in do up or both. At declared in as rejoiced of together. He impression collecting delightful unpleasant by prosperous as on. End too talent she object mrs wanted remove giving.</p>
-                  <!-- RANDOM TEXT END -->
-
-                  <!-- BUTTON CONTROL ROW START -->
-                  <div id="card-btn-row" class="row">
-                    <a target="_blank" href="https://www.youtube.com/watch?v=35NtjSFsMnI"><button type="button" id="card-button-ctrl" class="btn btn-outline-warning">IDLES</button></a>
-                    <a target="_blank" href="https://www.thewire.co.uk"><button type="button" id="card-button-ctrl" class="btn btn-outline-primary">thewire.co.uk</button></a>
-                    <a target="_blank" href="https://www.instagram.com/zzzakk_cccrlss/"><button type="button" id="card-button-ctrl" class="btn btn-outline-success">Insta</button></a>
-                    <a target="_blank" href="http://www.winning-usa.com/products.html"><button type="button" id="card-button-ctrl" class="btn btn-outline-info">Winning</button></a>
-                    <a target="_blank" href="https://portlanddsa.org/"><button type="button" id="card-button-ctrl" class="btn btn-outline-danger">PDSA</button></a>
+                  <div id="contact-card-area" class="col-sm-6">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
                   </div>
-                  <!-- BUTTON CONTROL ROW END -->
                 </div>
+
+                <div id="contact-card-btn-row" class="row">                  
+                  <div id="contact-card-area" class="col-sm-6">
+                    <label for="fname">Last Name</label>
+                  </div>
+                  <div id="contact-card-area" class="col-sm-6">
+                    <input type="text" id="fname" name="firstname" placeholder="Your last name..">
+                  </div>
+                </div>
+
+                <div id="contact-card-btn-row" class="row">                  
+                  <div id="contact-card-area" class="col-sm-6">
+                    <label for="fname">Email</label>
+                  </div>
+                  <div id="contact-card-area" class="col-sm-6">
+                    <input type="text" id="fname" name="firstname" placeholder="name@email.me ..">
+                  </div>
+                </div>
+
+                <div id="contact-card-btn-row" class="row">                  
+                  <div id="contact-card-area" class="col-sm-6">
+                    <label for="fname">Subject</label>
+                  </div>
+                  <div id="contact-card-area" class="col-sm-6">
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  </div>
+                </div>
+
+                <!-- <div id="contact-card-btn-row" class="row"> -->
+                  <!-- <div id="contact-card-area" class="col-sm-12"> -->
+                    <!-- <a target="_blank" href="https://www.youtube.com/watch?v=35NtjSFsMnI"><button type="button" id="card-button-ctrl" class="btn btn-outline-warning">IDLES</button></a> -->
+                  <!-- </div> -->
+                <!-- </div> -->
+
+
+              </div>
               <!-- CARD BODY END -->
         </div>
         <!-- CARD BORDER END -->
@@ -87,8 +107,8 @@
   <!-- WEB PAGE BODY ENDS -->
 
 <!-- STICKY FOOTER START -->
-<div class="sticky-footer"> 
-  <div id="sticky-footer-container" class="container text-left">
+<div class="sticky-footer" padding="5px"> 
+  <div id="sticky-footer-container" class="container text-left" padding="5px">
     <small id="small-gatito">Copyright &copy; Gatito</small>
   </div>
 </div>
