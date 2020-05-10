@@ -48,5 +48,5 @@ Listed below are the minimum requirements provided in the original README with a
 ## Appreciations
 * Maryus 
 * Colin
-* Becky
+* Beki
 
