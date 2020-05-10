@@ -20,44 +20,36 @@ Listed below are the minimun requirements provided in the original README with a
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages. --- Done. I disabled  link in the Brand banner message --- Issac
 * All links must work. --- Done --- Issac
 * Must use semantic html. --- Done --- Issac
-* Each page must have valid and correct HTML. (use a validation service). --- Done. used https://validator.w3.org/nu/ --- Issac
+* Each page must have valid and correct HTML. (use a validation service). --- Done, no errors are found in final version. used https://validator.w3.org/nu/ --- Issac
 * Must contain your personalized information. (bio, name, images, links to social media, etc.). --- Didnt use my personal picture, it has my LinkedIn bio and links to my personal social media, and stuff that I like. All the pictures have working links. --- Issac
 * Must properly utilize Bootstrap components and grid system. --- used the following Boostrap link https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cyborg/bootstrap.min.css, and the following JS links to make the hamburguer link work https://code.jquery.com/jquery-3.4.1.slim.min.js, https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js, https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+* BONUS, crate a Sticky Footer using Bootsrap and use sub-rows and sub-columns. --- Done. Issac
 
-### Features
+### Features and Comments
 
+* All the displayed pictures have working links to other sites.
+* Navbar has brand title disabled, though it was redundant.
+* Navbar shows a hamburguer button when the page is shrunk.
+* All button have working links.
+* When shrinking Portfolio the image resize is not as elegant as i would have liked, but all images stay inside Card area.
+* Was not able to get some padding between pictures in the same row when shrinking the screen.
+* Attempted to include some banners inside the images in both the index.html and the portfolio.html but had a hard time setting them up, scrapped the effort.
+* Had some text to add a description to the Portfolio.html pictures and made sure that the text didnt overlap or was out of range when screen resize happened.
+* It has working media queries in style.css that change the text color and the font size depending on the screen size.
+* Contact.html sends an alert that says "Fake Email" and cleans content from text boxes using JS.
+* Probably CSS could use more optimization and cleaning up. 
 
-## Deployment
+## Conclusion
+* Building, stilying and troubleshooting HTML/CSS has its on type of approach and logic, one of the main takeaways I have from this assigment is that everything has to be verified in various screen sizes everytime a component is added to the page. I started resizing screens after I had everything built and consequently had to do a lot of rework. During my research I also read that starting sites from mobile size first and then validating in bigger sizes is a better approach. Will probably take this route in future assigments.
+* Used validator right before turning in the assigment, had a lot of errors and took a while to figure out how to correct them without breaking my code. Will engage this early on in next efforts.
 
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+## Links
+* GitHub Repo > https://github.com/carlosissac/mod02homework
+* Live App link >  https://carlosissac.github.io/mod02homework
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Maryus 
+* Colin
+* Becky
 
