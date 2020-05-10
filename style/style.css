@@ -110,7 +110,11 @@
   padding: 0.5rem;
 }
 
-#about-card-button-ctrl {
+#about-card-button-ctrl-1,
+#about-card-button-ctrl-2,
+#about-card-button-ctrl-3, 
+#about-card-button-ctrl-4, 
+#about-card-button-ctrl-5 {
   margin: 0.1rem;
 }
 
