@@ -18,9 +18,8 @@ Listed below are the minimum requirements provided in the original README with a
 * Must use semantic html. --- Done, included ALT tags for images --- Issac
 * Each page must have valid and correct HTML. (use a validation service). --- Done, no errors are found in the final version. used https://validator.w3.org/nu/ --- Issac
 * Must contain your personalized information. (bio, name, images, links to social media, etc.). --- Didn't use my personal picture, it has my LinkedIn bio and links to my personal social media, and stuff that I like. All the pictures have working links. --- Issac
-* Must properly utilize Bootstrap components and grid system. --- used the following Boostrap link https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cyborg/bootstrap.min.css, and the following JS links to make the hamburguer link work https://code.jquery.com/jquery-3.4.1.slim.min.js, https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js, https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
-* BONUS, create a Sticky Footer using Bootstrap and use sub-rows and sub-columns. --- Done. Issac
-
+* Must properly utilize Bootstrap components and grid system. --- used the following Boostrap link https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/cyborg/bootstrap.min.css, and the following JS links to make the hamburger link work https://code.jquery.com/jquery-3.4.1.slim.min.js, https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js, https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js
+* BONUS, create a Sticky Footer using Bootstrap and use sub-rows and sub-columns. --- Done. Added the sticky footer and nested several rows and columns --- Issac
 
 ### Features and Comments
 * All the displayed pictures have working links to other sites.
@@ -30,7 +29,7 @@ Listed below are the minimum requirements provided in the original README with a
 * When shrinking Portfolio.Html the image resize is not as elegant as I would have liked, but all images remain inside the Card area.
 * Was not able to get some padding between pictures in the same row when shrinking the screen in Portfolio.HTML.
 * Attempted to include some banners inside the images for their description in both the index.html and the portfolio.html but had a hard time setting them up. I scraped the effort.
-* Had some text to add a description to the Portfolio.html pictures and made sure that the text did not overlap or was out of range when screen resize happened.
+* Added some text to add a description to the Portfolio.html pictures, made sure that the added text did not overlap or was out of range when screen resize happened.
 * There are working media queries in style.css, these make the text color and the font size change depending on the screen size.
 * Contact.html sends an alert that says "Fake Email" and cleans content from text boxes leaving placeholder text in place using JS.
 * Probably style.css could have used more optimization and cleaning up.
@@ -40,7 +39,6 @@ Listed below are the minimum requirements provided in the original README with a
 * During my research I also read that starting sites from mobile size first and then validating in bigger sizes is a better approach. Will probably take this route in future assignments.
 * Used validator right before turning in the assignment, had a lot of errors and it took me a while to figure out how to correct them without breaking my code. Will engage this early on in next efforts.
 
-
 ## Links
 * GitHub Repo > https://github.com/carlosissac/mod02homework
 * Live App link >  https://carlosissac.github.io/mod02homework
@@ -49,4 +47,3 @@ Listed below are the minimum requirements provided in the original README with a
 * Maryus 
 * Colin
 * Beki
-
