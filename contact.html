@@ -54,47 +54,37 @@
               <div class="contact-card-body">
 
                 <div id="contact-card-btn-row" class="row">                  
-                  <div id="contact-card-area" class="col-sm-6">
-                    <label for="fname">First Name</label>
-                  </div>
-                  <div id="contact-card-area" class="col-sm-6">
-                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  </div>
+                    <label class="contact-text-label" for="fname">First Name</label>
+                    <input class="contact-text-box" id="firstname-tb" type="text" placeholder="Your name..">
+                </div>
+
+                <div id="contact-card-btn-row" class="row">
+                    <label class="contact-text-label" for="fname">Last Name</label>
+                    <input class="contact-text-box" id="lastname-tb" type="text" placeholder="Your last name..">
                 </div>
 
                 <div id="contact-card-btn-row" class="row">                  
-                  <div id="contact-card-area" class="col-sm-6">
-                    <label for="fname">Last Name</label>
-                  </div>
-                  <div id="contact-card-area" class="col-sm-6">
-                    <input type="text" id="fname" name="firstname" placeholder="Your last name..">
-                  </div>
+                    <label class="contact-text-label" for="fname">Email</label>
+                    <input class="contact-text-box" id="email-tb" type="text" placeholder="name@email.me ..">
                 </div>
 
                 <div id="contact-card-btn-row" class="row">                  
-                  <div id="contact-card-area" class="col-sm-6">
-                    <label for="fname">Email</label>
-                  </div>
-                  <div id="contact-card-area" class="col-sm-6">
-                    <input type="text" id="fname" name="firstname" placeholder="name@email.me ..">
-                  </div>
+                    <label class="contact-text-label" for="fname">Subject</label>
+                    <textarea class="contact-text-box" id="subject-tb" type="text" placeholder="Write something.." style="height:200px"></textarea>
                 </div>
 
                 <div id="contact-card-btn-row" class="row">                  
-                  <div id="contact-card-area" class="col-sm-6">
-                    <label for="fname">Subject</label>
-                  </div>
-                  <div id="contact-card-area" class="col-sm-6">
-                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  </div>
+                    <button onclick="fakeEmail()" type="button" id="card-button-ctrl" class="btn btn-outline-warning">Send</button>
+                    <script>
+                      function fakeEmail() {
+                        alert("Fake Email Sent!!! Boxes Cleared!!!");
+                        document.getElementById("firstname-tb").value= "";
+                        document.getElementById("lastname-tb").value= "";
+                        document.getElementById("email-tb").value= "";
+                        document.getElementById("subject-tb").value= "";
+                     }
+                    </script>
                 </div>
-
-                <!-- <div id="contact-card-btn-row" class="row"> -->
-                  <!-- <div id="contact-card-area" class="col-sm-12"> -->
-                    <!-- <a target="_blank" href="https://www.youtube.com/watch?v=35NtjSFsMnI"><button type="button" id="card-button-ctrl" class="btn btn-outline-warning">IDLES</button></a> -->
-                  <!-- </div> -->
-                <!-- </div> -->
-
 
               </div>
               <!-- CARD BODY END -->
