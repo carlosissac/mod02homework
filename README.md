@@ -11,7 +11,7 @@ Personal website made in order to exercise key HTML, Git, CSS and Bootstrap conc
 ### Minimum Requirements Checklist.
 Listed below are the minimum requirements provided in the original README with added comments.
 * Functional, deployed application. --- Done --- Issac
-* GitHub repository with README describing the project. --- Created a new README as a report. --- ISSAC
+* GitHub repository with README describing the project. --- Created a new README as a report. --- Issac
 * Navbar must be consistent on each page. --- Done --- Issac
 * Navbar on each page must contain links to Home/About, Contact, and Portfolio pages. --- Done. I disabled  link in the Brand banner message --- Issac
 * All links must work. --- Done --- Issac
