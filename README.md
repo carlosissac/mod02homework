@@ -33,6 +33,7 @@ Listed below are the minimum requirements provided in the original README with a
 * There are working media queries in style.css, these make the text color and the font size change depending on the screen size.
 * Contact.html sends an alert that says "Fake Email" and cleans content from text boxes leaving placeholder text in place using JS.
 * Probably style.css could have used more optimization and cleaning up.
+* Pages were verified in several screen sizes and Responsive mode options in Chrome's DevTools, in a MacBook Pro 2014 screen and a 25 inch monitor. 
 
 ## Conclusion
 * Building, styling and troubleshooting HTML/CSS has its own type of approach and logic, one of the main takeaways I have from this assignment is that everything has to be verified in various screen sizes everytime a component is added to the page. I started resizing screens after I had almost everything finalized and built, consequently had to do a lot of rework. 
